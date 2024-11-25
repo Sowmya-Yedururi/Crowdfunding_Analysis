@@ -2,7 +2,8 @@
 
 ## Table of Contents
 
-
+- [Project Overview](#project-overview)
+- [Recommendations](#recommendations)
 ### Project Overview
 
 This data analysis project aims to analyze crowdfunding dynamics on platforms like kickstarter, focusing on key areas such as project success rates, geographic distribution, successful projects based on backers count and category popularity.
