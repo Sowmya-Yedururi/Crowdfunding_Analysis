@@ -13,7 +13,7 @@
 - [Recommendations](#recommendations)
 - [References](#references)
   
-## Project Overview
+### Project Overview
 
 This data analysis project aims to analyze crowdfunding dynamics on platforms like kickstarter, focusing on key areas such as project success rates, geographic distribution, successful projects based on backers count and category popularity.
 
@@ -50,55 +50,55 @@ Performed comprehensive data analysis using MySQL, focusing on Project status, g
 **To find the total projects status**
 
 ```sql
-select State,
-count(*) as total_projects
-from projects
-group by state;
+SELECT State,
+COUNT(*) as total_projects
+FROM projects 
+GROUP BY state;
 ```
 
 **Geographic distribution of projects**
 
 ```sql
-select 
-     location_id
-     count(*) as total_projects
-from
-     projects
-group by
+SELECT 
+    location_id, 
+    COUNT(*) AS total_projects
+FROM 
+    projects
+GROUP BY 
     location_id
-order by
+ORDER BY 
     total_projects DESC;
 ```
 
 **Projects based on Category**
 
 ```sql
-select
-category_id,
-       count(*) as total_projects
-from
-       projects
-group by
-       category_id
-order by
-       total_projects DESC;
+SELECT
+Category_id, 
+    COUNT(*) AS total_projects
+FROM 
+    projects
+GROUP BY 
+    Category_id
+ORDER BY 
+    total_projects DESC;
 ```
 
 ## Power BI Dashboard
 
 Here is a preview of the dashboard that visualizes key insights from the crowdfunding data:
 
-
+![Dashboard]()
 
 ### Results
 
 The analysis results are summarized as follows:
--	Among crowdfunding projects, the success rate was significant, with 140.31k projects succeeding, while 188.24k projects failed to meet funding goals. A smaller proportion (32.5k projects) were canceled.
+-	Among crowdfunding projects, the success rate was significant, with **140.31k** projects **succeeding**, while **188.24k** projects **failed** to meet funding goals. A smaller proportion **32.5k** projects were **canceled**.
 -	The United States dominated crowdfunding activities, hosting the majority of projects compared to other countries.
--	Categories like Product Design, Music, and Tabletop Games were the most prominent, indicating their popularity among backers and creators.
+-	Categories like **Product Design**, **Music**, and **Tabletop Games** were the most prominent, indicating their popularity among backers and creators.
 -	Crowdfunding activities peaked in 2015 but have shown a decline since, suggesting the need for innovation in platform strategies to reignite interest.
 
-## Recommendations
+### Recommendations
 
 Based on the analysis, we recommend the following actions:
 -	Categories like Product Design and Music are highly popular, creators and platforms should focus on supporting these areas by offering targeted resources or promotional opportunities.
@@ -110,6 +110,9 @@ Based on the analysis, we recommend the following actions:
 
 [Epoch Time](https://www.epochconverter.com/)
 
+
+
+***Thank you for taking the time to explore my project. Your interest and support are greatly appreciated!*** 😄
 
 
 
