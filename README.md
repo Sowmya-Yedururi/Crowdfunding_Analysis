@@ -112,7 +112,7 @@ Based on the analysis, we recommend the following actions:
 
 
 
-***Thank you for taking the time to explore my project. Your interest and support are greatly appreciated!*** 😄
+*Thank you for taking the time to explore my project. Your interest and support are greatly appreciated!* 😄
 
 
 
