@@ -1,10 +1,9 @@
 # Kickstarter Crowdfunding Analysis
 
 ## Table of Contents
-
 - [Project Overview](#project-overview)
 - [Recommendations](#recommendations)
-### Project Overview
+## Project Overview
 
 This data analysis project aims to analyze crowdfunding dynamics on platforms like kickstarter, focusing on key areas such as project success rates, geographic distribution, successful projects based on backers count and category popularity.
 
@@ -89,7 +88,7 @@ The analysis results are summarized as follows:
 -	Categories like Product Design, Music, and Tabletop Games were the most prominent, indicating their popularity among backers and creators.
 -	Crowdfunding activities peaked in 2015 but have shown a decline since, suggesting the need for innovation in platform strategies to reignite interest.
 
-### Recommendations
+## Recommendations
 
 Based on the analysis, we recommend the following actions:
 -	Categories like Product Design and Music are highly popular, creators and platforms should focus on supporting these areas by offering targeted resources or promotional opportunities.
