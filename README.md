@@ -1,8 +1,18 @@
 # Kickstarter Crowdfunding Analysis
 
 ## Table of Contents
+
 - [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Power BI Dashboard](#power-bi-dashboard)
+- [Results](#results)
 - [Recommendations](#recommendations)
+- [References](#references)
+  
 ## Project Overview
 
 This data analysis project aims to analyze crowdfunding dynamics on platforms like kickstarter, focusing on key areas such as project success rates, geographic distribution, successful projects based on backers count and category popularity.
