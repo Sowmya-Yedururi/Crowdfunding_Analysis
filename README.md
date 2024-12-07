@@ -88,7 +88,9 @@ ORDER BY
 
 Here is a preview of the dashboard that visualizes key insights from the crowdfunding data:
 
-![Dashboard](https://drive.google.com/file/d/1EyYOyZh7USF6UBWkixSCSO5MNF1yeHfN/view?usp=drive_link)
+
+![Power BI Dashboard](https://github.com/user-attachments/assets/ba7b2460-a7e9-4570-a0b4-7b01760ebcaa)
+
 
 ### Results
 
